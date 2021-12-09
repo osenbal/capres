@@ -1,0 +1,4 @@
+.vscode/*
+src/public/*
+node_modules/*
+src/templates/index.html

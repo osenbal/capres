@@ -1,0 +1,86 @@
+// Navbar style
+header {
+  display: grid;
+  padding: 8px 16px;
+  background-color: white;
+  grid-template-columns: 4fr 0.5fr;
+  align-items: stretch;
+  gap: 10px;
+  position: sticky;
+  top: 0;
+  z-index: 99;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  my-logo {
+    .logo__brand {
+      img {
+        width: 72px;
+        user-select: none;
+      }
+      span {
+        user-select: none;
+        font-family: "Quicksand", sans-serif;
+        font-size: 2.3em;
+      }
+    }
+  }
+  my-hamburger {
+    justify-self: end;
+    .hamburger__menu {
+      button {
+        background-color: transparent;
+        border: none;
+        font-size: 18px;
+        min-width: 44px;
+        min-height: 44px;
+        padding: 8px;
+        cursor: pointer;
+      }
+    }
+  }
+  my-navbar {
+    #navbar.open {
+      ul {
+        li {
+          max-height: 44px;
+          transform: translate(0, 0);
+        }
+      }
+    }
+    #navbar {
+      transition: all 0.8s linear;
+      padding: 8px;
+      background-color: rgba(246, 106, 101, 0.5);
+      border-radius: 24px;
+      overflow: hidden;
+      ul {
+        li {
+          transition: all 0.3s;
+          box-sizing: border-box;
+          max-height: 0;
+          transform: translate(-900px, 0);
+          list-style-type: none;
+          a {
+            transition: all 0.3s;
+            display: inline-block;
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+            padding: 8px;
+            margin-bottom: 5px;
+            width: 70%;
+            min-width: 44px;
+            min-height: 28px;
+          }
+        }
+        a:hover {
+          background-color: rgba(246, 106, 101, 0.787);
+          border-radius: 20px;
+          color: white;
+        }
+        a:focus {
+          border-radius: 20px;
+          outline: 1px solid rgb(207, 48, 48);
+        }
+      }
+    }
+  }
+}

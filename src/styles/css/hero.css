@@ -1,0 +1,50 @@
+.hero {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(rgba(98, 98, 98, 0.65), rgba(92, 92, 92, 0.616)), url("../../public/images/heros/hero-image_4.jpg");
+  background-size: 100% 100%;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+  text-align: center;
+}
+.hero .logo-hero {
+  opacity: 0.2;
+  transform: translate(0, -600px);
+  transition: opacity 0.5s, transform 0.8s ease-in-out;
+  width: 200px;
+  max-width: 100%;
+}
+.hero .hero__content {
+  max-width: 100%;
+  font-family: "Quicksand", sans-serif;
+  color: #FFB740;
+  text-align: left;
+  margin: 0 16px;
+}
+.hero .hero__content h1 {
+  font-size: 3em;
+  font-weight: 700;
+}
+.hero .hero__content p {
+  font-size: 1.5em;
+  font-weight: 600;
+}
+.hero .location__slide {
+  background-color: #FF413D;
+  color: #ffffff;
+  text-align: center;
+  padding: 24px;
+  font-size: 16px;
+  width: 100%;
+}
+.hero .location__slide img {
+  display: none;
+  width: 30px;
+  vertical-align: middle;
+}
+.hero .location__slide span {
+  vertical-align: middle;
+}/*# sourceMappingURL=hero.css.map */

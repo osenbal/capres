@@ -1,0 +1,355 @@
+.detail__item-restaurant {
+  width: 100%;
+  /* Navbar detail */
+  /* Description style */
+}
+.detail__item-restaurant .detail__cover {
+  width: 100%;
+}
+.detail__item-restaurant .detail__cover .image-poster {
+  width: 100%;
+  z-index: 99;
+  display: inline-block;
+  /* FF3.6+ */
+  /* Chrome,Safari4+ */
+  /* Chrome10+,Safari5.1+ */
+  /* Opera 11.10+ */
+  /* IE10+ */
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.1) 0%, white 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#a6000000", endColorstr="#00000000",GradientType=0 );
+  /* IE6-9 */
+}
+.detail__item-restaurant .detail__cover .image-poster .image-poster_background {
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: relative;
+  z-index: -1;
+  display: block;
+  height: 450px;
+  width: 100%;
+}
+.detail__item-restaurant .detail__cover .detail__title {
+  width: 100%;
+  margin: auto auto;
+  margin-top: -180px;
+  padding: 16px 0;
+  background-color: #ffffff;
+  border-radius: 16px 16px 0 0;
+  display: grid;
+  gap: 4px;
+  grid-template-columns: 1.5fr 2fr;
+}
+.detail__item-restaurant .detail__cover .detail__title .detail__title-image {
+  max-width: 400px;
+  width: 35vw;
+  margin: auto 5%;
+  justify-self: center;
+  align-self: center;
+}
+.detail__item-restaurant .detail__cover .detail__title .detail__title-image img {
+  border-radius: 10px;
+  width: 100%;
+  height: 150px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.detail__item-restaurant .detail__cover .detail__title .detail__title-content {
+  justify-self: start;
+  align-self: center;
+}
+.detail__item-restaurant .detail__cover .detail__title .detail__title-content .fa-star {
+  color: #ffdc15;
+}
+.detail__item-restaurant .detail__cover .detail__title .detail__title-content .fa-map-marker-alt {
+  color: #ec3333;
+}
+.detail__item-restaurant .detail__cover .detail__title .detail__title-content h2 {
+  margin-bottom: 16px;
+}
+.detail__item-restaurant .detail__cover .detail__title .detail__title-content .detail__category {
+  margin-top: 16px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+  max-width: 10px;
+  text-align: center;
+}
+.detail__item-restaurant .detail__cover .detail__title .detail__title-content .detail__category p {
+  font-size: 14px;
+  padding: 4px;
+  border-radius: 4px;
+  background-color: #ffe9c7;
+}
+.detail__item-restaurant .detail__navigation {
+  margin: 48px 0;
+  position: -webkit-sticky;
+  position: sticky;
+}
+.detail__item-restaurant .detail__navigation ul {
+  text-align: center;
+  padding: 8px;
+}
+.detail__item-restaurant .detail__navigation ul li {
+  display: inline-block;
+}
+.detail__item-restaurant .detail__navigation ul li a {
+  cursor: pointer;
+  background-color: #ffffff;
+  transition: all 0.8s ease;
+  display: block;
+  height: 100%;
+  padding: 1em;
+  width: 80px;
+  text-decoration: none;
+  color: black;
+  border-bottom: 3px solid white;
+}
+.detail__item-restaurant .detail__navigation ul li a:hover {
+  border-bottom: 3px solid #f56d6d;
+  color: #f56d6d;
+}
+.detail__item-restaurant .detail__navigation ul li .liked {
+  background-color: #f75454 !important;
+  color: #ffffff;
+  cursor: pointer;
+}
+.detail__item-restaurant .detail__navigation ul li .favorite-btn {
+  cursor: pointer;
+  background-color: #ffffff;
+  transition: all 0.5s ease;
+  border: none;
+  padding: 1.5em;
+  border-radius: 8px;
+}
+.detail__item-restaurant .detail__navigation ul li .favorite-btn:hover {
+  background-color: #f56d6d;
+  color: #ffffff;
+}
+.detail__item-restaurant .detail__main-content {
+  margin: 0 3%;
+}
+.detail__item-restaurant .detail__main-content .detail__contents {
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 100%;
+  gap: 24px;
+  /* Recomendation style */
+}
+.detail__item-restaurant .detail__main-content .detail__contents .detail__container {
+  /* Menus style */
+  /* Review Style */
+  /* Review box style */
+}
+.detail__item-restaurant .detail__main-content .detail__contents .detail__container .detail__descriptions h3 {
+  margin: 24px 0;
+}
+.detail__item-restaurant .detail__main-content .detail__contents .detail__container .detail__descriptions p {
+  font-size: 1em;
+}
+.detail__item-restaurant .detail__main-content .detail__contents .detail__container .detail__menus-container {
+  margin-top: 32px;
+  width: 100%;
+}
+.detail__item-restaurant .detail__main-content .detail__contents .detail__container .detail__menus-container h3 {
+  font-size: 1.5em;
+}
+.detail__item-restaurant .detail__main-content .detail__contents .detail__container .detail__menus-container .detail__menus {
+  margin-top: 16px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-left: 16px;
+  margin-right: 8px;
+}
+.detail__item-restaurant .detail__main-content .detail__contents .detail__container .detail__menus-container .detail__menus .detail__lists-food h4 {
+  font-size: 1.3em;
+}
+.detail__item-restaurant .detail__main-content .detail__contents .detail__container .detail__menus-container .detail__menus .detail__lists-food .food-list {
+  font-size: 1em;
+}
+.detail__item-restaurant .detail__main-content .detail__contents .detail__container .detail__menus-container .detail__menus .detail__lists-drink {
+  justify-self: center;
+}
+.detail__item-restaurant .detail__main-content .detail__contents .detail__container .detail__menus-container .detail__menus .detail__lists-drink h4 {
+  font-size: 1.3em;
+}
+.detail__item-restaurant .detail__main-content .detail__contents .detail__container .detail__review {
+  margin-top: 32px;
+}
+.detail__item-restaurant .detail__main-content .detail__contents .detail__container .detail__review h3 {
+  font-size: 1.5em;
+  margin-bottom: 16px;
+}
+.detail__item-restaurant .detail__main-content .detail__contents .detail__container .detail__review .detail__review-header {
+  display: flex;
+  gap: 24px;
+}
+.detail__item-restaurant .detail__main-content .detail__contents .detail__container .detail__review .detail__review-header .detail__review-header-rating {
+  padding: 12px 4px;
+  background-color: #ff6f6f;
+  border-radius: 8px;
+  color: #ffffff;
+}
+.detail__item-restaurant .detail__main-content .detail__contents .detail__container .detail__review .detail__review-header p {
+  padding: 12px 4px;
+  border-radius: 8px;
+}
+.detail__item-restaurant .detail__main-content .detail__contents .detail__container .detail__review .detail__review-content {
+  margin: 0 auto;
+}
+.detail__item-restaurant .detail__main-content .detail__contents .detail__container .detail__review .detail__review-content .detail__review-content-item {
+  padding: 24px;
+  border-bottom: 0.5px solid #929292;
+}
+.detail__item-restaurant .detail__main-content .detail__contents .detail__container .detail__review .detail__review-content .detail__review-content-item p {
+  font-style: italic;
+}
+.detail__item-restaurant .detail__main-content .detail__contents .detail__container .add-review {
+  margin: 24px 0;
+  background-color: #ffdcdc;
+  padding: 16px;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.detail__item-restaurant .detail__main-content .detail__contents .detail__container .add-review h3 {
+  margin: 8px 0;
+}
+.detail__item-restaurant .detail__main-content .detail__contents .detail__container .add-review .box-review {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 12px;
+}
+.detail__item-restaurant .detail__main-content .detail__contents .detail__container .add-review .box-review input {
+  box-sizing: border-box;
+  padding: 16px;
+  border: none;
+  min-width: 0;
+}
+.detail__item-restaurant .detail__main-content .detail__contents .detail__container .add-review .box-review textarea {
+  padding: 16px;
+  box-sizing: border-box;
+  resize: vertical;
+  min-width: 0;
+  border: none;
+}
+.detail__item-restaurant .detail__main-content .detail__contents .detail__container .add-review .btn__add-review {
+  margin-top: 16px;
+  background-color: #f56d6d;
+  color: #ffffff;
+  border: none;
+  padding: 16px;
+  cursor: pointer;
+  justify-self: end;
+  transition: all 0.5s;
+}
+.detail__item-restaurant .detail__main-content .detail__contents .detail__container .add-review .btn__add-review:hover {
+  background-color: #ffffff;
+  color: #333333;
+}
+.detail__item-restaurant .detail__main-content .detail__contents .detail__recomendations {
+  margin: 0 5px;
+}
+.detail__item-restaurant .detail__main-content .detail__contents .detail__recomendations h3 {
+  font-size: 1.5em;
+  margin: 24px 0;
+}
+.detail__item-restaurant .detail__main-content .detail__contents .detail__recomendations a {
+  color: #111111;
+  text-decoration: none;
+}
+.detail__item-restaurant .detail__main-content .detail__contents .detail__recomendations .recomendation__item {
+  background-color: #fffad0;
+  margin: 16px 8px;
+  padding: 8px;
+  border-radius: 8px;
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: start;
+}
+.detail__item-restaurant .detail__main-content .detail__contents .detail__recomendations .recomendation__item img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 8px;
+  height: 200px;
+  width: 100%;
+}
+.detail__item-restaurant .detail__main-content .detail__contents .detail__recomendations .recomendation__item .recomendation__item-content .fa-star {
+  color: #ffdc15;
+}
+.detail__item-restaurant .detail__main-content .detail__contents .detail__recomendations .recomendation__item .recomendation__item-content h4 {
+  margin-bottom: 8px;
+}
+.detail__item-restaurant .detail__main-content .detail__contents .detail__recomendations .recomendation__item .recomendation__item-content p {
+  margin-bottom: 8px;
+}
+.detail__item-restaurant .detail__main-content .detail__contents .detail__recomendations .recomendation__item .recomendation__item-content .desc {
+  align-self: center;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Responsive */
+@media screen and (min-width: 768px) {
+  .detail__item-restaurant .detail__cover .image-poster .image-poster_background {
+    height: 550px;
+  }
+  .detail__item-restaurant .detail__cover .detail__title {
+    margin-top: -100px;
+    background-color: rgba(255, 255, 255, 0);
+    padding: 0;
+    border-radius: 0px;
+    grid-template-columns: 2fr 2fr;
+  }
+  .detail__item-restaurant .detail__cover .detail__title .detail__title-image {
+    justify-self: end;
+  }
+  .detail__item-restaurant .detail__cover .detail__title .detail__title-image img {
+    height: 16vw;
+  }
+  .detail__item-restaurant .detail__main-content .detail__contents .detail__container .detail__descriptions h3 {
+    font-size: 1.5em;
+  }
+  .detail__item-restaurant .detail__main-content .detail__contents .detail__container .detail__descriptions p {
+    font-size: 1.2em;
+  }
+  .detail__item-restaurant .detail__main-content .detail__contents .detail__recomendations .recomendation__item {
+    grid-template-columns: 1.5fr 3fr;
+    gap: 8px;
+  }
+  .detail__item-restaurant .detail__main-content .detail__contents .detail__recomendations .recomendation__item img {
+    border-radius: 12px;
+    height: 100px;
+    width: 100%;
+  }
+  .detail__item-restaurant .detail__main-content .detail__contents .detail__recomendations .recomendation__item .recomendation__item-content {
+    align-self: center;
+  }
+}
+@media screen and (min-width: 998px) {
+  .detail__item-restaurant .detail__main-content {
+    margin: 0 5%;
+  }
+  .detail__item-restaurant .detail__main-content .detail__contents {
+    grid-template-columns: 2fr 1.5fr;
+    gap: 100px;
+  }
+  .detail__item-restaurant .detail__main-content .detail__contents .detail__container {
+    /* Menus style */
+  }
+  .detail__item-restaurant .detail__main-content .detail__contents .detail__container .detail__menus-container .detail__menus .detail__lists-food .menu-list li {
+    font-size: 1.2em;
+  }
+  .detail__item-restaurant .detail__main-content .detail__contents .detail__container .detail__menus-container .detail__menus .detail__lists-drink {
+    justify-self: start;
+  }
+  .detail__item-restaurant .detail__main-content .detail__contents .detail__container .detail__menus-container .detail__menus .detail__lists-drink .menu-list li {
+    font-size: 1.2em;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .detail__item-restaurant .detail__main-content {
+    margin: 0 15%;
+  }
+}/*# sourceMappingURL=detail.css.map */
