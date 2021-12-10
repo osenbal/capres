@@ -14,22 +14,22 @@ class MyFooter extends HTMLElement {
         <div class="section-1">
           <h3>Sitemap</h3>
           <ul class="list__sitemap">
-            <li class="item__sitemap"><a href="#">Beranda</a></li>
-            <li class="item__sitemap"><a href="#">Favorite</a></li>
-            <li class="item__sitemap"><a href="#">About</a></li>
+            <li class="item__sitemap"><a href="/#">Beranda</a></li>
+            <li class="item__sitemap"><a href="/#/favorite">Favorite</a></li>
+            <li class="item__sitemap"><a rel="noopener noreferrer" target="_blank" href="https://www.linkedin.com/in/iqbal-maulana1703/">About</a></li>
           </ul>
         </div>
         <div class="section-2">
           <h3>Contact</h3>
           <div class="social_media">
             <div>
-              <a aria-label="Contact Instagram" href="#"><img src="./images/assets/instagram.png" /></a>
+              <a aria-label="Contact Instagram" rel="noopener noreferrer" target="_blank" href="https://www.instagram.com/iqbal_mln17/"><img src="./images/assets/instagram.png" /></a>
             </div>
             <div>
-              <a aria-label="Contact facebook" href="#"><img src="./images/assets/facebook.png" /></a>
+              <a aria-label="Contact facebook"  rel="noopener noreferrer" target="_blank" href="https://www.facebook.com"><img src="./images/assets/facebook.png" /></a>
             </div>
             <div>
-              <a aria-label="Contact twitter" href="#"><img src="./images/assets/twitter.png" /></a>
+              <a aria-label="Contact twitter"  rel="noopener noreferrer" target="_blank" href="https://twitter.com"><img src="./images/assets/twitter.png" /></a>
             </div>
           </div>
         </div>

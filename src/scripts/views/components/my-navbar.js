@@ -11,7 +11,7 @@ class MyNavbar extends HTMLElement {
       <ul>
         <li class="nav__item"><a href="./#">Home</a></li>
         <li class="nav__item"><a href="/#/favorite">Favorite</a></li>
-        <li class="nav__item"><a rel="noopener" target="_blank"
+        <li class="nav__item"><a rel="noopener noreferrer" target="_blank"
             href="https://www.linkedin.com/in/iqbal-maulana1703/">About</a></li>
       </ul>
     </nav>
