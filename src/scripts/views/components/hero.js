@@ -20,11 +20,11 @@ class MyHero extends HTMLElement {
             <p>Ayo Cari Pilihan Restaurant Mu</p>
           </div>
         </div>
+        <div class="location__slide">
+            <img type="image/png" src="./images/assets/place.png" alt="Map Icon" />
+          <span>Find Your Favorite Restaurant... ➤</span>
+        </div>
       </section>
-      <div class="location__slide">
-          <img type="image/png" src="./images/assets/place.png" alt="Map Icon" />
-        <span>Find Your Favorite Restaurant... ➤</span>
-      </div>
     `;
   }
 }
